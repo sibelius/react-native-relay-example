@@ -1,0 +1,26 @@
+{
+  "name": "ReactNativeRelay",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "~15.3.1",
+    "react-native": "0.37.0",
+    "react-relay": "^0.9.3"
+  },
+  "devDependencies": {
+    "babel-jest": "17.0.2",
+    "babel-preset-react-native": "1.9.0",
+    "babel-relay-plugin": "^0.9.3",
+    "jest": "17.0.2",
+    "jest-react-native": "17.0.2",
+    "react-test-renderer": "~15.3.1"
+  },
+  "jest": {
+    "preset": "jest-react-native"
+  },
+  "private": true,
+  "scripts": {
+    "clear": "node node_modules/react-native/local-cli/cli.js start --reset-cache",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  }
+}
