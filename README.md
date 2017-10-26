@@ -1,3 +1,7 @@
+# Deprecation Notice
+
+Use this one instead [ReactNavigationRelayModern](https://github.com/entria/ReactNavigationRelayModern)
+
 # React Native + Relay
 
 This is a sample repository that shows how to integrate React Native with Relay
